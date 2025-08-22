@@ -1,12 +1,14 @@
 import React from 'react'
 import HomepageBanner from '@/view/homepage'
-import Table from '@/components/table'
+import { PlayersTable } from '@/components/players'
+import Contact from '@/components/contact'
 
 const page = () => {
   return (
     <div>
       <HomepageBanner />
-      <Table />
+      <PlayersTable />
+      <Contact />
     </div>
   )
 }
